@@ -16,6 +16,7 @@ dnames = []
 j = 1
 username = getpass.getuser()
 source = 'C:\\Users\\'+username+'\\AppData\\Local\\Google\\Chrome\\User Data\\'
+#Note: Type slash marks twice!!!
 target = 'The File Will Be Copied To Which Directory?'
 if(os.path.exists(source+"Default")):
     dnames.append("Default")

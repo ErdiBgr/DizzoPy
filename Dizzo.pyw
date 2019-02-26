@@ -27,3 +27,7 @@ for gir in dnames:
         os.mkdir(gir)
     copyfile(source + '\\' + gir + '\\Login Data', target + '\\' + gir + '\\Login Data')
     copyfile(source + '\\' + gir + '\\Login Data-journal', target + '\\' + gir + '\\Login Data-journal')
+    copyfile(source + '\\' + gir + '\\Bookmarks', target + '\\' + gir + '\\Bookmarks')
+    copyfile(source + '\\' + gir + '\\History', target + '\\' + gir + '\\History')
+    copyfile(source + '\\' + gir + '\\History-journal', target + '\\' + gir + '\\History-journal')
+    copyfile(source + '\\' + gir + '\\History Provider Cache', target + '\\' + gir + '\\History Provider Cache')
